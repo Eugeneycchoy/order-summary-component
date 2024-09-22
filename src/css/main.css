@@ -1,0 +1,103 @@
+main {
+  background-color: white;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 25px;
+  border-radius: 0 0 12px 12px;
+}
+
+main > p {
+  color: var(--desaturated-blue);
+  text-align: center;
+  width: 90%;
+  margin-top: 1.2rem;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.plan > img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.plan {
+  display: flex;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+  padding: 12px;
+  width: 90%;
+  align-items: center;
+  margin-top: 1.2rem;
+  justify-content: space-between;
+  padding-block: 1.2rem;
+}
+
+#plan-details {
+  margin-left: -3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+#plan-details h2 {
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+
+#plan-details p {
+  color: var(--desaturated-blue);
+  font-size: 0.8rem;
+}
+
+/* Change */
+#root > div > main > div > a {
+  color: var(--bright-blue);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#root > div > main > div > a:hover {
+  text-decoration: none;
+}
+
+button {
+  margin-top: 1.2rem;
+  width: 90%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--bright-blue);
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  box-shadow: 0 5px 10px var(--pale-blue);
+}
+
+button:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+#cancel {
+  margin-top: 1.2rem;
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#cancel:hover {
+  color: var(--dark-blue);
+  transition: color 0.2s;
+}
